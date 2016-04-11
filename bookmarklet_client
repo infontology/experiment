@@ -1,4 +1,4 @@
-Funkar i Chrome: javascript:(function(){var script=document.createElement('script');script.type='text/javascript';script.onload=function(){enter()};script.src='http://infontology.org/kod/script1.js?v='+parseInt(Math.random()*99999999);document.getElementsByTagName('head')[0].appendChild(script);})();
+Funkar i Chrome: javascript:(function(){var script=document.createElement('script');script.type='text/javascript';script.src='http://infontology.org/kod/script1.js?v='+parseInt(Math.random()*99999999);document.getElementsByTagName('head')[0].appendChild(script);})();
 
 med
 
