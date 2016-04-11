@@ -1,7 +1,9 @@
 javascript:(function(){var%20script=document.createElement('script');script.type='text/javascript';script.src='http://infontology.org/kod/script1.js?v='+parseInt(Math.random()*99999999);document.getElementsByTagName('head')[0].appendChild(script);})();
 
-javascript:(function(){var a=document.getElementById("gwtw-bookmarklet");a&&a.parentNode.removeChild(s);a=document.createElement("script");a.src="//infontology.org/kod/script1.js?"+Math.floor((new Date).getTime()/3600000);a.id="gwtw-bookmarklet";document.body.appendChild(a)})();
+javascript:(function(){var%20a=document.getElementById("gwtw-bookmarklet");a&&a.parentNode.removeChild(s);a=document.createElement("script");a.src="//infontology.org/kod/script1.js?"+Math.floor((new Date).getTime()/3600000);a.id="gwtw-bookmarklet";document.body.appendChild(a)})();
 
 /*
 <p>Drag <a class="bookmarklet" href="javascript:(function(){var a=document.getElementById("gwtw-bookmarklet");a&&a.parentNode.removeChild(s);a=document.createElement("script");a.src="//www.growingwiththeweb.com/bookmarklet.js?"+Math.floor((new Date).getTime()/3600000);a.id="gwtw-bookmarklet";document.body.appendChild(a)})()">the bookmarklet</a> to your bookmarks bar.</p>
 */
+
+javascript:(function(){s=document.createElement('script');s.type='text/javascript';s.src='http://infontology.org/kod/script1.js?v='+parseInt(Math.random()*99999999);document.body.appendChild(s);})();
