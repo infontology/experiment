@@ -2,6 +2,7 @@
 Loop through children of current node in TinyMCE
 
 Användbar kodsnutt:
+```
 var ed = tinyMCE.activeEditor;
 var element = ed.dom.getParent(ed.selection.getNode(), 'table');
 
@@ -12,3 +13,4 @@ while(child){
     }
     child = child.nextSibling;
 }
+```
